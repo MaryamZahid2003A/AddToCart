@@ -1,25 +1,102 @@
-import logo from './logo.svg';
+import React from 'react'
 import './App.css';
+import productList from './productList';
 
 function App() {
+  let List=[
+    {
+      id:1,
+      Name:"Shampoo",
+      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea eveniet dolorum non, a, aliquam cupiditate cumque ...",
+      Price:200,
+      quantity:0
+    },
+    {
+      id:2,
+      Name:"Shampoo",
+      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea eveniet dolorum non, a, aliquam cupiditate cumque ...",
+      Price:200,
+      quantity:0
+    },
+    {
+      id:3,
+      Name:"Shampoo",
+      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea eveniet dolorum non, a, aliquam cupiditate cumque ...",
+      Price:200,
+      quantity:0
+    },
+    {
+      id:4,
+      Name:"Shampoo",
+      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea eveniet dolorum non, a, aliquam cupiditate cumque ...",
+      Price:200,
+      quantity:0
+    },
+    {
+      id:5,
+      Name:"Shampoo",
+      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea eveniet dolorum non, a, aliquam cupiditate cumque ...",
+      Price:200,
+      quantity:0
+    },
+    {
+      id:6,
+      Name:"Shampoo",
+      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea eveniet dolorum non, a, aliquam cupiditate cumque ...",
+      Price:200,
+      quantity:0
+    },
+    {
+      id:7,
+      Name:"Shampoo",
+      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea eveniet dolorum non, a, aliquam cupiditate cumque ...",
+      Price:200,
+      quantity:0
+    },
+    {
+      id:8,
+      Name:"Shampoo",
+      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea eveniet dolorum non, a, aliquam cupiditate cumque ...",
+      Price:200,
+      quantity:0
+    },
+    {
+      id:9,
+      Name:"Shampoo",
+      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea eveniet dolorum non, a, aliquam cupiditate cumque ...",
+      Price:200,
+      quantity:0
+    },
+    {
+      id:10,
+      Name:"Shampoo",
+      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea eveniet dolorum non, a, aliquam cupiditate cumque ...",
+      Price:200,
+      quantity:0
+    },
+    {
+      id:11,
+      Name:"Shampoo",
+      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea eveniet dolorum non, a, aliquam cupiditate cumque ...",
+      Price:200,
+      quantity:0
+    },
+    {
+      id:12,
+      Name:"Shampoo",
+      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea eveniet dolorum non, a, aliquam cupiditate cumque ...",
+      Price:200,
+      quantity:0
+    }
+  ]
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React with Maryam Zahid
-          Let's Learn
-        </a>
-      </header>
+    <>
+    <h1 className='addCart'>Add To Cart</h1>
+    <div className='menu'>
+      <productList  List={List}/>
     </div>
+
+    </>
   );
 }
 
