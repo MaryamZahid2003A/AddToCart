@@ -1,11 +1,13 @@
 import React from 'react';
 import Product from './Product'
-function productList(props){
+import './App.css';
+
+function ProductList(props){
     return(
-        props.List.map((product)=> {
-            return <Product product={product}/>;
-        })
         
+        props.List.map((product,i)=> {
+            return <div className='ProductItem'><Product product={product} key={product.id} increment={props.increment}/></div>;
+        })     
     );
 }
-export default productList;
+export default ProductList;
