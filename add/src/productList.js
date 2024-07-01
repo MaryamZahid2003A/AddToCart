@@ -6,7 +6,7 @@ function ProductList(props){
     return(
         
         props.List.map((product,i)=> {
-            return <div className='ProductItem'><Product product={product} key={product.id} increment={props.increment}/></div>;
+            return <div className='ProductItem'  key={product.id}><Product product={product}  increment={props.increment} decrement={props.decrement}/></div>;
         })     
     );
 }

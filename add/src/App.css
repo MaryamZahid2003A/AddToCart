@@ -1,5 +1,5 @@
 body{
-  background-color:rgb(222, 217, 224);
+  background-color:rgb(200, 225, 228);
 }
 .addCart{
   
@@ -16,7 +16,7 @@ body{
 }
 .ProductItem{
   float:left;
-  width:25%;
+  width:40%;
   height:6rem;
   border:1px solid black;
   border-radius:0.5rem;
@@ -25,12 +25,14 @@ body{
   color:whitesmoke;
   margin-top:1.4rem;
   margin-left:4rem;
+  box-shadow: 8px 8px 8px rgb(1, 35, 50);
 }
 .product{
   margin-left:1rem;
   margin-top:0.02rem;
 }
 .productDetail{
+  margin-top:1rem;
   color:rgb(100, 247, 198);
 }
 .flexClass{
@@ -58,6 +60,16 @@ body{
   margin-right:0.5rem;
   
   
+}
+
+.productflex{
+  display:flex;
+}
+.notification{
+  color:azure;
+
+ 
+  font-size:2rem;
 }
 @media screen and (max-width: 992px) {
   .ProductItem {
