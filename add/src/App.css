@@ -2,17 +2,76 @@ body{
   background-color:rgb(200, 225, 228);
 }
 .addCart{
-  
+  margin-left:40%;
   font-family:Arial, Helvetica, sans-serif;
   color:rgb(35, 5, 36);
   text-align:center;
 }
+.button2{
+  background-color: rgb(1, 22, 31);
+  color:aliceblue;
+   width:7rem;
+   height:4rem;
+   border:1px solid black;
+   border-radius: 0.5rem;
+   margin-left:3rem;
+   cursor:pointer;
+ }
+ .button2:hover{
+   background-color: aliceblue;
+   color:rgb(1, 22, 31);
+    width:7rem;
+    height:4rem;
+    border:1px solid black;
+    border-radius: 0.5rem;
+    margin-left:3rem;
+    cursor:pointer;
+    transition: 2ms ;
+  }
+.button1{
+ background-color: rgb(1, 22, 31);
+ color:aliceblue;
+  width:7rem;
+  height:4rem;
+  border:1px solid black;
+  border-radius: 0.5rem;
+  margin-left:36rem;
+  cursor:pointer;
+}
+.button1:hover{
+  background-color: aliceblue;
+  color:rgb(1, 22, 31);
+   width:7rem;
+   height:4rem;
+   border:1px solid black;
+   border-radius: 0.5rem;
+   margin-left:36rem;
+   cursor:pointer;
+   transition: 2ms ;
+ }
 .menu{
   margin-top:3rem;
   width :90rem;
   height:35rem;
   margin-left:2rem;
   margin-right:2rem;;
+}
+.Nothing{
+  float:left;
+  margin-left:40%;
+  margin-top:5rem;
+  font-size:2rem;
+  text-align:center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.Nothing1{
+  float:left;
+  margin-top:7rem;
+  margin-left:40%;
+  color:black;
+  font-size:2rem;
+  text-align:center;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .ProductItem{
   float:left;
@@ -33,7 +92,7 @@ body{
 }
 .productDetail{
   margin-top:1rem;
-  color:rgb(100, 247, 198);
+  color:rgb(41, 255, 237);
 }
 .flexClass{
   display:flex;
@@ -54,6 +113,12 @@ body{
   font-size:15px;
   cursor:pointer;
 }
+.individualbutton:hover{
+  background-color: rgb(1, 21, 27);
+  color:aliceblue;
+  font-size:15px;
+  cursor:pointer;
+}
 .productButton{
   margin-left:0.5rem;
   color:aliceblue;
@@ -70,6 +135,9 @@ body{
 
  
   font-size:2rem;
+}
+.header{
+  display:flex;
 }
 @media screen and (max-width: 992px) {
   .ProductItem {
